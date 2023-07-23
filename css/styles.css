@@ -418,13 +418,17 @@ max-height: 732px;
 margin-bottom: 120px;
 } 
 .our-team-div{
-display: flex;
-margin-left: 156px;
-max-width: 232px;
+display:inline-flex;
+width: calc((100% - 24 * 3)/4);
+padding: 32px;
+gap: 24px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+margin: 0 auto;
+
 }
+
 .our-team-img-text{
 list-style:none;
 background-color: #FFFFFF;
@@ -434,7 +438,8 @@ flex-wrap: center;
 }
 .div-our-team-box{
 align-items: center;
-height: 348px;
+/* height: 348px; */
+
 
 border-radius: 0px 0px 4px 4px;
 background: var(--white, #FFF);
@@ -459,8 +464,6 @@ letter-spacing:0.02em;
 color: #434455;
 }
 /*section-4*index*/
-
-
 
 
 /*section-2*portfolio*/
