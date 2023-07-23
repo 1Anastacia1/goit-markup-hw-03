@@ -500,8 +500,9 @@ justify-content: center;
 
 }
 .picture-list-item{
-width: calc((100% - 15px * 2) / 3);
-/* padding: 58px 24px; */
+width: calc((100% - 48px * 2) / 3);
+gap: 24px;
+
 border-radius: 1px solid var(--cornflower, #E7E9FC);
 background: var(--white, #FFF);
 }
