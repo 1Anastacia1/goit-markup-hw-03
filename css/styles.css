@@ -210,6 +210,9 @@ color: #404bbf;
 
 .menu-list{
 padding: 96px 0 120px 0;
+display: flex;
+align-items: center;
+justify-content: center;
 
 }
 
@@ -227,9 +230,7 @@ overflow: hidden;
  }
 
 .button-container{
-display: flex;
-align-items: center;
-justify-content: center;
+
 }
 
 .navigation{
