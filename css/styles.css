@@ -52,11 +52,6 @@ margin-bottom:  0;
 width: 1158px;
 padding: 0 15px;
 margin: auto;
-/* max-width: auto; */
-/* padding-left:0 auto ;
-padding-right:auto; 
-margin-left:auto;
-margin-right:auto; */
  }
  img{
 display: block;
@@ -65,7 +60,6 @@ display: block;
 .header-link{
 align-items: center;
 width: 100%;
-margin: 0 auto;
 border-bottom: 1px solid var(--cornflower, #E7E9FC);
 background: var(--white, #FFF);
 
@@ -75,9 +69,6 @@ background: var(--white, #FFF);
 font-family:'Raleway',sans-serif;
 color: var(--iris, #4d5ae5);
 font-weight:800;
-font-size:18px;
-line-height:1.17;
-letter-spacing:0.03em;
 text-decoration:none;
 list-style:none;
 }
@@ -91,8 +82,8 @@ color: #404bbf;
 font-family:'Roboto';
 color: #2e2f42 ;
 font-weight:500;
-line-height:24px;
-letter-spacing:0.02em;
+/* line-height:24px; */
+/* letter-spacing:0.02em; */
 }
 .header-menu-item-portfolio:hover{
 color: #404bbf;
@@ -112,21 +103,20 @@ text-decoration:none;
 list-style:none;
 display: flex;
 align-items: center;
-/* gap: 76px; */
 
 }
 .header-container{
 display: flex;
 align-items: center;
-padding: 0 15px;
+/* padding: 0 15px; */
 }
 .header-logo{
 font-family:'Raleway',sans-serif;
 color: #4d5ae5;
 font-weight:800;
 font-size:18px;
-line-height:1.17;
-letter-spacing:0.03em;
+/* line-height:1.17; */
+/* letter-spacing:0.03em; */
 text-decoration:none;
 text-transform:uppercase;
 margin-right: 76px;
@@ -211,7 +201,6 @@ padding: 96px 0 120px 0;
 display: flex;
 align-items: center;
 justify-content: center;
-
 }
 
 .visually-hidden {
@@ -225,7 +214,7 @@ white-space: nowrap;
 clip-path: inset(100%);
 clip: rect(0 0 0 0);
 overflow: hidden;
- }
+}
 
 .button-container{
 
@@ -505,12 +494,8 @@ display: flex;
 flex-wrap: wrap;
 column-gap:24px;
 row-gap:48px;
-gap: 15px;
-/* padding: 48px 24px; */
 align-content: center;
 justify-content: center;
-
-
 }
 .picture-list-item{
 width:calc((100% - 48px)/3);
@@ -518,12 +503,9 @@ border-radius: 1px;
 background: var(--white, #fff);
 }
 .picture-div-box{
-margin: 24px;
 width: 360px;
-
 border: 1px solid #e7e9fc;
 background: var(--white, #FFF);
-
 }
 .picture-heading-text{
 font-weight:500;
@@ -532,7 +514,6 @@ line-height:120%;
 letter-spacing:0.02em;
 color: #2e2f42;
 margin-bottom: 8px;
-
 }
 
 .picture-text{
@@ -549,7 +530,6 @@ text-decoration: none;
 }
 .div-picture-heading{
 padding: 32px 16px;
-margin-bottom: 8px;
 border-top: none;
 border: 1px solid var(--cornflower, #e7e9fc);
 background: var(--white, #FFF);
