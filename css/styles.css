@@ -495,11 +495,7 @@ width:calc((100% - 48px)/3);
 border-radius: 1px;
 background: var(--white, #fff);
 }
-.picture-div-box{
-width: 360px;
-border: 1px solid #e7e9fc;
-background: var(--white, #FFF);
-}
+
 .picture-heading-text{
 font-weight:500;
 font-size:20px;
