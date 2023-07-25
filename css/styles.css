@@ -348,10 +348,7 @@ padding-bottom: 120px;
 .caption-text{
 list-style:none;
 display: flex;
-/* align-items: flex-start; */
-/* gap: 8px; */
 gap: 24px;
-/* flex-shrink: 0; */
 
 }
 .caption-subject{
@@ -383,10 +380,8 @@ line-height:1.2;
 letter-spacing:0.02em;
 color: #2e2f42;
 display: flex;
-
 display: inline;
 align-items: center;
-
 flex-direction: column;
 align-items: center;
 }
@@ -395,7 +390,6 @@ align-items: center;
 /* section3 index */
 .heading-img-pic{
 padding-bottom:120px;
-
 }
 .heading-img{
 font-weight:700;
