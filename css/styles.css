@@ -51,6 +51,8 @@ margin-bottom:  0;
 .container{
 width: 1158px;
 padding: 0 15px;
+margin: auto;
+
 
 }
 img{
@@ -119,6 +121,7 @@ font-size:18px;
 text-decoration:none;
 text-transform:uppercase;
 margin-right: 76px;
+margin-left: 156;
 
 
 }
@@ -511,9 +514,9 @@ text-decoration: none;
 
 }
 .div-picture-heading{
-padding:32px 16px;
+padding: 32px 16px;
 border: 1px solid var(--cornflower, #e7e9fc);
-border-top:none;
+border-top: none;
 background: var(--white, #FFF);
 }
 /*section-4*/
