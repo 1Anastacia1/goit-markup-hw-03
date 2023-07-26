@@ -66,10 +66,10 @@ gap: 40px;
 font-weight:500;
 
 }
-.header-menu:hover{
+.header-menu-link:hover{
 color: #404bbf;
 }
-.header-menu:focus{
+.header-menu-link:focus{
 color: #404bbf;
 }
 .header-menu-item{
