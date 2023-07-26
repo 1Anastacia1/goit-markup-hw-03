@@ -10,13 +10,14 @@
 --brand-color: var(--slate, #434455);
 --brand-color: #404bbf;
 --brand-color: #434455;
+--barad-color: #2e2f42;
 
 --brand-background-color: #4D5AE5;
 --brand-background-color: #404BBF;
 --brand-background-color: #F4F4FD;
 --brand-background-color: #e7e9fc;
 --brand-background-color:rgba(244, 244, 253, 1);
---brand-background-color: var(--navyblue, #2E2F42);
+--brand-background-color: var(--navyblue, #2e2f42);
 }
 body{
 font-family:'Roboto', sans-serif;
@@ -59,14 +60,11 @@ border-bottom: 1px solid var(--cornflower, #E7E9FC);
 background: var(--white, #FFF);
 }
 .header-menu{
-text-decoration:none;
-color: #2e2f42;
-font-weight:500;
-line-height:1.5;
-letter-spacing:0.02em;
+color:  #2e2f42;
 display: flex;
 gap: 40px;
-padding: 24px 0;
+font-weight:500;
+
 }
 .header-menu:hover{
 color: #404bbf;
@@ -74,32 +72,16 @@ color: #404bbf;
 .header-menu:focus{
 color: #404bbf;
 }
-
-.header-menu-item-portfolio{
-font-family:'Roboto';
-color: #2e2f42 ;
-font-weight:500;
-text-decoration:none;
-list-style:none;
-max-height: 72px;
-letter-spacing: 0.02px;
-
+.header-menu-item{
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-decoration: none;
 }
-.header-menu-item-portfolio:hover{
-color: #404bbf;
-}
-.header-menu-item-portfolio:focus{
-color: #404bbf;
-}
-.header-menu-item-studio{
-font-family:'Roboto';
-color: #2e2f42 ;
-font-weight:500;
-text-decoration:none;
-list-style:none;
-max-height: 72px;
-line-height: 24px; 
-letter-spacing: 0.02px;
+.header-menu-link{
+color: #2e2f42;
+padding: 24px 0;
 }
 
 .header-list{
@@ -110,27 +92,22 @@ align-items: center;
 }
 .header-container{
 display: flex;
-align-items: center;
-
 }
 .header-logo{
 font-family:'Raleway',sans-serif;
 color: #4d5ae5;
 font-size: 18px;
 font-weight:800;
-line-height: 0.03em; 
-letter-spacing: 0.54px;
-text-decoration:none;
+line-height: 1.17; 
+letter-spacing: 0.03em;
 text-transform:uppercase;
 margin-right: 76px;
-margin-left: auto;
+
 }
 .header-title-logo{
-color:  #2e2f42 ;
+color:  #2e2f42; ;
 }
-.link-html{
-color: #2e2f42 ;
-}
+
 .contact{
 font-style:normal;
 list-style:none;
@@ -150,6 +127,7 @@ gap: 40px;
 margin-left: auto;
 }
 .header-contact-soc-item{
+display: flex;
 font-size:16px;
 line-height:1.5;
 letter-spacing:0.02em;
@@ -166,6 +144,7 @@ font-size:16px;
 line-height:1.5;
 letter-spacing:0.02em;
 color: #434455;
+padding: 24px 0;
 }
 .link-tel{
 }
