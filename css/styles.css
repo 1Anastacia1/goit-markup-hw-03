@@ -344,7 +344,7 @@ align-items: center;
 
 /* section3 index */
 .heading-img-pic{
-
+padding-bottom: 120px;
 
 }
 .heading-img{
@@ -368,7 +368,7 @@ gap: 24px;
 width: calc((100% - 48) / 3);
 }
 .heading-list-pic{
-padding-bottom: 120px;
+
 }
 /*section-3*/
 
