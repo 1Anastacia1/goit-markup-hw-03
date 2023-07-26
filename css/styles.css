@@ -363,13 +363,12 @@ align-items: center;
 background-color: #FFFFFF;
 display: flex;
 gap: 24px;
-padding-bottom: 120px;
 }
 .heading-li-img{
 width: calc((100% - 48) / 3);
 }
 .heading-list-pic{
-
+padding-bottom: 120px;
 }
 /*section-3*/
 
