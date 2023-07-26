@@ -22,13 +22,6 @@ body{
 font-family:'Roboto', sans-serif;
 color: var(--slate, #434455);
 background-color:#FFFFFF;
-line-height:1.5;
-letter-spacing:0.02em;
-max-width: 1440px;
-max-height: 2592px;
-min-height: 100vh;
-display: flex;
-flex-direction: column;
 }
 button{
 border: 0;
@@ -121,16 +114,13 @@ font-size:18px;
 text-decoration:none;
 text-transform:uppercase;
 margin-right: 76px;
-margin-left: 156;
-
-
+margin-left: auto;
 }
 .header-title-logo{
 color:  #2e2f42 ;
 }
 
 .header-menu{
-font-family:'Roboto',sans-serif;
 text-decoration:none;
 color: #2e2f42;
 font-weight:500;
@@ -384,7 +374,7 @@ align-items: center;
 
 /* section3 index */
 .heading-img-pic{
-padding-bottom:120px;
+
 
 }
 .heading-img{
@@ -547,19 +537,17 @@ color: var(--cloud, #f4f4fd);
 font-family:'Raleway',sans-serif;
 font-size:18px;
 font-weight:800;
-line-height:1.17; /* 116.667% */
+line-height:1.17;
 letter-spacing:0.03em;
 text-transform:uppercase;
 }
 .footer-text{
 color: var(--cloud, #F4F4FD);
-font-family:'Roboto',sans-serif;
 font-size: 16px;
-font-weight: 400;
+line-height: 0,66em;
 letter-spacing: 0.02em;
 display: flex;
 flex: auto;
-/* gap: 156px; */
 max-width: 264px;
 padding-top: 18px;
 
